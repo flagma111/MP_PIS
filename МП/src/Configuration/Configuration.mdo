@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd56ae7c-0bd7-479b-addf-b4431393e890">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>МП</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="79ce761e-0702-4e4a-8279-f13bcb95ab63"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="6ff23fa3-44b9-446d-b0ff-c38ac58fed4d"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="d91cdaf7-cf6d-431f-9e59-0990fdc70a8c"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="86dd4c3d-68d1-429a-af82-f78ad61d2fee"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="1c2813b4-3e64-4f4a-bf83-94b09d83f594"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3eb0b659-f860-47b6-aff9-ce209a15af1b"/>
+  <namePrefix></namePrefix>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>i</vendor>
+  <version>1.0.6</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Contacts</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Calendars</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="cc6a30d6-70b0-43db-b40c-2b783f4849b0">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonPictures>CommonPicture.Таймер</commonPictures>
+  <commonModules>CommonModule.ОбщийВызовСервера</commonModules>
+  <constants>Constant.МинутОтсрочкиПовторногоНапоминания</constants>
+  <constants>Constant.ПерезаписатьНапоминания</constants>
+  <commonForms>CommonForm.Настройки</commonForms>
+  <catalogs>Catalog.Доски</catalogs>
+  <catalogs>Catalog.Разделы</catalogs>
+  <catalogs>Catalog.ЭлементыДоски</catalogs>
+  <dataProcessors>DataProcessor.Доска</dataProcessors>
+  <dataProcessors>DataProcessor.ГрафикНапоминаний</dataProcessors>
+  <informationRegisters>InformationRegister.Напоминания</informationRegisters>
+  <informationRegisters>InformationRegister.ПорядокЭлементовВРазделах</informationRegisters>
+  <informationRegisters>InformationRegister.ПрикрепленныеФайлы</informationRegisters>
+</mdclass:Configuration>

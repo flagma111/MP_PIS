@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67521a2b-7f33-4089-95c3-c27d2c186032">
+  <producedTypes>
+    <selectionType typeId="8958405a-47bf-4e0f-a7a6-49c9477098b7" valueTypeId="6f9e0168-a893-4030-9f5e-818238acddd1"/>
+    <listType typeId="56861167-1657-4157-b552-f5e6a0c1ddf5" valueTypeId="941479f6-af4e-4762-abe2-cf02e8cb69ad"/>
+    <managerType typeId="717b8d82-10a0-408f-bd39-732901d81c8e" valueTypeId="2354ee4d-eb2c-49b9-b75f-ac8a48df6533"/>
+    <recordSetType typeId="9fbe7bba-2f29-4ed3-904a-1dbf6341e8bc" valueTypeId="c8126274-4591-41df-bc5c-0c213a2f7ece"/>
+    <recordKeyType typeId="9402e9ff-60f8-4117-90b0-23ab2d472832" valueTypeId="37f99cd3-8ee7-4ae6-a21e-1f53393c3b0c"/>
+    <recordType typeId="8666de46-3f28-4547-b2e7-1227875afb88" valueTypeId="098e9b6f-934c-4b67-8e18-2eb4abe0cb82"/>
+    <recordManagerType typeId="966c70f7-b7e7-4892-aa7c-a22d5e4192f1" valueTypeId="73d7dfc7-af0f-44d4-8be8-a4086c4d5d8f"/>
+  </producedTypes>
+  <name>ПорядокЭлементовВРазделах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок элементов в разделах</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f3ebf2b2-5b46-4d44-90dc-f466dd94e60c">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e88a23cc-0dc7-4c63-8738-868551192952">
+    <name>Элемент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.ЭлементыДоски</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

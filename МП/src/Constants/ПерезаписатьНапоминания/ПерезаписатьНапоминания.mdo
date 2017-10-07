@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98d021af-fd78-486d-aa42-c7f7809743c5">
+  <producedTypes>
+    <managerType typeId="b23d7d93-9165-4ac5-a852-7334e9231127" valueTypeId="30473cfa-5416-4c72-95d1-bf259f9e65f1"/>
+    <valueManagerType typeId="633fd4b9-4e5e-4737-8580-6ab5068ada95" valueTypeId="3aaf0740-8745-427b-ac9f-e7a9396a7d71"/>
+  </producedTypes>
+  <name>ПерезаписатьНапоминания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перезаписать напоминания</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

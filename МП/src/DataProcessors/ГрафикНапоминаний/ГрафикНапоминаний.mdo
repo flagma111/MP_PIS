@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c364d24-5004-4bdf-9fc5-89ee624e4f3f">
+  <producedTypes>
+    <objectType typeId="147f406d-8323-4ff2-ae29-261ff80e004e" valueTypeId="62bdb174-80b4-4b78-97fe-1663f47d58ca"/>
+    <managerType typeId="3cf3a026-431a-42b2-9a70-fdc1842ba737" valueTypeId="af114825-aa64-4242-a557-842077cf994c"/>
+  </producedTypes>
+  <name>ГрафикНапоминаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>График напоминаний</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ГрафикНапоминаний.Form.Форма</defaultForm>
+  <forms uuid="1742bfe3-73e3-4c8b-99b0-6ae9c5b41d80">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

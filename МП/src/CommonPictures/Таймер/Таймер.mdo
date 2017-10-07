@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d689019-8913-4c7d-b1b5-7540bcf9f1a9">
+  <name>Таймер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Таймер</value>
+  </synonym>
+  <comment></comment>
+  <transparentPixel>
+    <x>576</x>
+    <y>66</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

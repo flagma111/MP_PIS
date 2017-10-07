@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5391935e-c24e-4d45-81d7-07f006249ae4">
+  <producedTypes>
+    <objectType typeId="78dbbbca-26ff-4659-837f-f74e4be0f161" valueTypeId="d505a15e-f5b0-492e-bf3e-94b431ecee31"/>
+    <managerType typeId="c27cf855-2063-4375-97be-e8f9d174f595" valueTypeId="d97b1225-3500-4d74-8d4c-155eb2be5e5b"/>
+  </producedTypes>
+  <name>Доска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доска</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Доска.Form.Форма</defaultForm>
+  <forms uuid="f425de92-4df3-4cb5-8fc1-d3e1aa69d1c3">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

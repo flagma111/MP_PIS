@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afc62f03-f887-4277-a528-267b9a9e1356">
   <producedTypes>
-    <selectionType typeId="16215f90-24f7-4a05-a82e-fd6278e02aa4" valueTypeId="ff809042-57c7-4110-ae15-a04711d0a0bd"/>
-    <listType typeId="2762ab9a-50bb-44fd-91d5-db26003b7965" valueTypeId="1394d6dd-85fd-4f31-bea9-816cfd1ea943"/>
-    <managerType typeId="2768ec60-4ad8-45fc-81ea-1a0e214cd1e4" valueTypeId="2a1c8a62-19d0-456b-8bc3-f1180359525b"/>
-    <recordSetType typeId="19139c01-c931-4582-bc54-3eda8311ba1d" valueTypeId="adf31228-f888-476c-8b92-6b65a516dfac"/>
-    <recordKeyType typeId="5149ec2c-ae75-4988-a095-32b0af15957b" valueTypeId="bba4f334-d820-4022-ab40-8dbaac4c9d84"/>
-    <recordType typeId="bd353c44-7343-4437-b919-701de5dc28bd" valueTypeId="2424443d-3d74-4b21-9769-c6e1712c8e14"/>
-    <recordManagerType typeId="e62af501-7053-4b28-bb96-5ac308b8d7dd" valueTypeId="17f262b4-d872-459d-b126-46c687306171"/>
+    <selectionType typeId="16215f90-24f7-4a05-a82e-fd6278e02aa4" valueTypeId="ff809042-57c7-4110-ae15-a04711d0a0bd">
+    </selectionType>
+    <listType typeId="2762ab9a-50bb-44fd-91d5-db26003b7965" valueTypeId="1394d6dd-85fd-4f31-bea9-816cfd1ea943">
+    </listType>
+    <managerType typeId="2768ec60-4ad8-45fc-81ea-1a0e214cd1e4" valueTypeId="2a1c8a62-19d0-456b-8bc3-f1180359525b">
+    </managerType>
+    <recordSetType typeId="19139c01-c931-4582-bc54-3eda8311ba1d" valueTypeId="adf31228-f888-476c-8b92-6b65a516dfac">
+    </recordSetType>
+    <recordKeyType typeId="5149ec2c-ae75-4988-a095-32b0af15957b" valueTypeId="bba4f334-d820-4022-ab40-8dbaac4c9d84">
+    </recordKeyType>
+    <recordType typeId="bd353c44-7343-4437-b919-701de5dc28bd" valueTypeId="2424443d-3d74-4b21-9769-c6e1712c8e14">
+    </recordType>
+    <recordManagerType typeId="e62af501-7053-4b28-bb96-5ac308b8d7dd" valueTypeId="17f262b4-d872-459d-b126-46c687306171">
+    </recordManagerType>
   </producedTypes>
   <name>Напоминания</name>
   <synonym>
@@ -115,10 +122,10 @@
     </fillValue>
   </attributes>
   <attributes uuid="4a3d5dab-420a-484d-94a8-18e0399ff04d">
-    <name>ИзначальнаяДата</name>
+    <name>ДатаПериодическогоНапоминания</name>
     <synonym>
       <key>ru</key>
-      <value>Изначальная дата</value>
+      <value>Дата периодического напоминания</value>
     </synonym>
     <comment></comment>
     <type>
@@ -151,28 +158,6 @@
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
-    <mainFilter>true</mainFilter>
-  </dimensions>
-  <dimensions uuid="f94618bb-3f5b-459a-b819-eb5f3c7dac3c">
-    <name>Комментарий</name>
-    <synonym>
-      <key>ru</key>
-      <value>Комментарий</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="c8e97fd0-6ef5-4456-a55c-3c6658a3a5b5">

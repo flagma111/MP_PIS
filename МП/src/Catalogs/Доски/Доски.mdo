@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54dd3445-8c71-4cee-8025-6ffdf71b2c40">
   <producedTypes>
-    <objectType typeId="8be94e14-4ebf-44d6-be9a-dd20213774d2" valueTypeId="2629ff92-5163-4669-842e-5c3057121726"/>
-    <refType typeId="9d314c64-46f7-4226-a225-e2cb6bead12c" valueTypeId="6d5dd1b1-2bf3-468b-bffb-e08dbb272ea6"/>
-    <selectionType typeId="78812ee5-af1d-4450-9c93-e5d5e525195c" valueTypeId="9c3a7493-999f-4191-8616-77ecd31e5b75"/>
-    <listType typeId="bec69031-3f75-4491-865d-330950cb5a27" valueTypeId="899b4550-0418-4003-965e-0d93b3c311cb"/>
-    <managerType typeId="072edbc8-925e-453f-803f-a771ae02a406" valueTypeId="3f6e8ef0-ef1a-4cfb-94d5-ee2e5755c9d3"/>
+    <objectType typeId="8be94e14-4ebf-44d6-be9a-dd20213774d2" valueTypeId="2629ff92-5163-4669-842e-5c3057121726">
+    </objectType>
+    <refType typeId="9d314c64-46f7-4226-a225-e2cb6bead12c" valueTypeId="6d5dd1b1-2bf3-468b-bffb-e08dbb272ea6">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="78812ee5-af1d-4450-9c93-e5d5e525195c" valueTypeId="9c3a7493-999f-4191-8616-77ecd31e5b75">
+    </selectionType>
+    <listType typeId="bec69031-3f75-4491-865d-330950cb5a27" valueTypeId="899b4550-0418-4003-965e-0d93b3c311cb">
+    </listType>
+    <managerType typeId="072edbc8-925e-453f-803f-a771ae02a406" valueTypeId="3f6e8ef0-ef1a-4cfb-94d5-ee2e5755c9d3">
+    </managerType>
   </producedTypes>
   <name>Доски</name>
   <synonym>
@@ -134,7 +140,10 @@
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="963f7cd0-fd5d-46cf-b3a1-9a421cd405f1">
